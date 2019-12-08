@@ -85,7 +85,7 @@ function withAuth(Component) {
     React.useEffect(() => {
       const token = sessionStorage.getItem('token');
       setToken(token);
-      if (!token) window.location.href = '/keboli-assignment/login';
+      if (!token) props.history.push('/login');
     }, []);
     return token && <Component {...props} />;
   };
@@ -103,7 +103,7 @@ function App(props) {
 
   React.useEffect(() => {
     const getData = async () => {
-      const response = await fetch('response.json');
+      const response = await fetch('../response.json');
       const { data } = await response.json();
       setRows(data);
     };
@@ -144,7 +144,7 @@ function App(props) {
 
   const logout = () => {
     sessionStorage.removeItem('token');
-    window.location.href = '/keboli-assignment/login';
+    props.history.push('/login');
   };
 
   const drawer = (

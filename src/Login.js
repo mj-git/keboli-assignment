@@ -9,6 +9,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import { Redirect } from 'react-router-dom';
 
 function Copyright() {
   return (
@@ -43,7 +44,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function Login() {
+export default function Login(props) {
   const classes = useStyles();
   const [username, setUsername] = React.useState('');
   const [password, setPassword] = React.useState('');
@@ -53,7 +54,7 @@ export default function Login() {
     e.preventDefault();
     if (username === 'Admin' && password === 'Admin@1234') {
       sessionStorage.setItem('token', 'A123456');
-      window.location.href = '/keboli-assignment/';
+      props.history.push('/');
       return;
     }
     setError('Invalid Username or Password');
