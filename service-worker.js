@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/keboli-assignment/precache-manifest.e63b5ef5c85a3a7dd36774552288dc81.js"
+  "/keboli-assignment/precache-manifest.f2016502db1c5fa25cbb76954f9cc5f6.js"
 );
 
 self.addEventListener('message', (event) => {
