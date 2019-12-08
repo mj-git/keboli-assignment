@@ -58,4 +58,10 @@ Widget.defaultProps = {
   count: 5
 };
 
+Widget.propTypes = {
+  primaryText: PropTypes.string,
+  secondaryText: PropTypes.string,
+  count: PropTypes.number
+};
+
 export default Widget;
