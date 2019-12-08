@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-  <Router>
+  <Router basename="/keboli-assignment">
     <Switch>
       <Route exact path="/" component={App}></Route>
       <Route path="/login" component={Login}></Route>
