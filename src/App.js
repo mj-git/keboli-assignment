@@ -85,7 +85,7 @@ function withAuth(Component) {
     React.useEffect(() => {
       const token = sessionStorage.getItem('token');
       setToken(token);
-      if (!token) window.location.href = '/login';
+      if (!token) window.location.href = '/keboli-assignment/login';
     }, []);
     return token && <Component {...props} />;
   };
@@ -144,7 +144,7 @@ function App(props) {
 
   const logout = () => {
     sessionStorage.removeItem('token');
-    window.location.href = '/login';
+    window.location.href = '/keboli-assignment/login';
   };
 
   const drawer = (

@@ -53,7 +53,7 @@ export default function Login() {
     e.preventDefault();
     if (username === 'Admin' && password === 'Admin@1234') {
       sessionStorage.setItem('token', 'A123456');
-      window.location.href = '/';
+      window.location.href = '/keboli-assignment/';
       return;
     }
     setError('Invalid Username or Password');
