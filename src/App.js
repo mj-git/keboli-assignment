@@ -103,7 +103,7 @@ function App(props) {
 
   React.useEffect(() => {
     const getData = async () => {
-      const response = await fetch('../response.json');
+      const response = await fetch('response.json');
       const { data } = await response.json();
       setRows(data);
     };
