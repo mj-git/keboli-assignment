@@ -47,6 +47,7 @@ export default function Login() {
   const classes = useStyles();
   const [username, setUsername] = React.useState('');
   const [password, setPassword] = React.useState('');
+  const [error, setError] = React.useState('');
 
   const loginHandler = e => {
     e.preventDefault();
@@ -55,6 +56,7 @@ export default function Login() {
       window.location.href = '/';
       return;
     }
+    setError('Invalid Username or Password');
   };
 
   return (
@@ -66,6 +68,9 @@ export default function Login() {
         </Avatar>
         <Typography component="h1" variant="h5">
           Sign in
+        </Typography>
+        <Typography component="p" variant="body2" color="error">
+          {error}
         </Typography>
         <form className={classes.form} noValidate>
           <TextField
