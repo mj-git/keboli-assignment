@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/keboli-assignment/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/keboli-assignment/static/js/main.9f60afcc.chunk.js",
-    "main.js.map": "/keboli-assignment/static/js/main.9f60afcc.chunk.js.map",
+    "main.js": "/keboli-assignment/static/js/main.beae8977.chunk.js",
+    "main.js.map": "/keboli-assignment/static/js/main.beae8977.chunk.js.map",
     "runtime-main.js": "/keboli-assignment/static/js/runtime-main.9b5a94b7.js",
     "runtime-main.js.map": "/keboli-assignment/static/js/runtime-main.9b5a94b7.js.map",
-    "static/js/2.8119d85f.chunk.js": "/keboli-assignment/static/js/2.8119d85f.chunk.js",
-    "static/js/2.8119d85f.chunk.js.map": "/keboli-assignment/static/js/2.8119d85f.chunk.js.map",
+    "static/js/2.d45e54b2.chunk.js": "/keboli-assignment/static/js/2.d45e54b2.chunk.js",
+    "static/js/2.d45e54b2.chunk.js.map": "/keboli-assignment/static/js/2.d45e54b2.chunk.js.map",
     "index.html": "/keboli-assignment/index.html",
-    "precache-manifest.f2016502db1c5fa25cbb76954f9cc5f6.js": "/keboli-assignment/precache-manifest.f2016502db1c5fa25cbb76954f9cc5f6.js",
+    "precache-manifest.de1a3031b90fb32a6c107a2b97912c76.js": "/keboli-assignment/precache-manifest.de1a3031b90fb32a6c107a2b97912c76.js",
     "service-worker.js": "/keboli-assignment/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/keboli-assignment/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.8119d85f.chunk.js.LICENSE": "/keboli-assignment/static/js/2.8119d85f.chunk.js.LICENSE"
+    "static/js/2.d45e54b2.chunk.js.LICENSE": "/keboli-assignment/static/js/2.d45e54b2.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9b5a94b7.js",
-    "static/js/2.8119d85f.chunk.js",
+    "static/js/2.d45e54b2.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.9f60afcc.chunk.js"
+    "static/js/main.beae8977.chunk.js"
   ]
 }
