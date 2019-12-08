@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6335ca9bbc89cd27b10aa1d33d19a7e8",
+    "revision": "994f703aa3d221fbebfcd83948bde280",
     "url": "/keboli-assignment/index.html"
   },
   {
-    "revision": "a8d8409ec1bb8f67ac64",
+    "revision": "716d472d4354e43102fb",
     "url": "/keboli-assignment/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/keboli-assignment/static/js/2.8119d85f.chunk.js.LICENSE"
   },
   {
-    "revision": "a8d8409ec1bb8f67ac64",
-    "url": "/keboli-assignment/static/js/main.404134ea.chunk.js"
+    "revision": "716d472d4354e43102fb",
+    "url": "/keboli-assignment/static/js/main.11904074.chunk.js"
   },
   {
     "revision": "7e3427e140f8ee207c9b",
